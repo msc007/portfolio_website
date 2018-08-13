@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive portfolio without bootstrap",
   "main": "index.js",
-  "homepage": "https://msc007.github.io/portfolio_website",
+  "homepage": "https://msc007/portfolio_website",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
