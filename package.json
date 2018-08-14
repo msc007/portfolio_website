@@ -6,7 +6,7 @@
   "homepage": "https://msc007.github.io/portfolio_website",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages-deploy -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Min Choi",
   "license": "MIT",
