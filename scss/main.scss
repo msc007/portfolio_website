@@ -87,6 +87,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
+    ". education ucsd"
     "job1 job2 job3";
   grid-template-columns: reapeat(3, 1fr);
 
@@ -100,6 +101,22 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+  }
+
+  .education {
+    grid-area: education;
+    font-size: 1.5rem;
+    //fixed text in each line
+    div {
+      white-space: nowrap;
+    }
+  }
+
+  .ucsd {
+    grid-area: ucsd;
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
   }
 
   .job {
