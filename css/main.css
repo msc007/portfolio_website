@@ -25,7 +25,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -161,7 +161,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" ". education ucsd" "job1 job2 job3";
   grid-template-columns: reapeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -171,6 +171,16 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .education {
+    grid-area: education;
+    font-size: 1.5rem; }
+    .about-info .education div {
+      white-space: nowrap; }
+  .about-info .ucsd {
+    grid-area: ucsd;
+    margin: auto;
+    border-radius: 50%;
+    border: #eece1a 3px solid; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
@@ -272,7 +282,7 @@ main {
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "ucsd" "education" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
