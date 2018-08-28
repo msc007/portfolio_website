@@ -1,4 +1,4 @@
 SIMPLE STATIC RESPONSIVE PORTFOLIO WEBSITE
 
 To Deploy
-Terminal: gh-pages-deploy
+Terminal: npm run deploy
