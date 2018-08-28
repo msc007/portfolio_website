@@ -1,0 +1,4 @@
+SIMPLE STATIC RESPONSIVE PORTFOLIO WEBSITE
+
+To Deploy
+Terminal: gh-pages-deploy

@@ -1,8 +1,14 @@
 @import "config";
 @import "menu";
+/*
+  To compile scss to css: Terminal "npm run sass"
+*/
 
 //all
 * {
+  //good practice: reset padding, margin, and box-sizing
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
