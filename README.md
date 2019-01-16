@@ -1,4 +1,7 @@
 SIMPLE STATIC RESPONSIVE PORTFOLIO WEBSITE
 
-To Deploy
-Terminal: npm run deploy
+Environment: 
+    npm install
+
+Deploy:
+    Terminal: npm run deploy
