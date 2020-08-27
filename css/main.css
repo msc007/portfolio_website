@@ -178,14 +178,14 @@ main {
     font-size: 1.5rem; }
   .about-info .education {
     grid-area: education;
-    font-size: 1.5rem; }
-    .about-info .education div {
-      white-space: nowrap; }
+    font-size: 1.5rem;
+    max-width: 100%; }
   .about-info .ucsd {
     grid-area: ucsd;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid;
+    max-width: 100%; }
   .about-info .job {
     background: #3a495f;
     padding: 0.5rem;
