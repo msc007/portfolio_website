@@ -112,10 +112,8 @@ main {
   .education {
     grid-area: education;
     font-size: 1.5rem;
-    //fixed text in each line
-    div {
-      white-space: nowrap;
-    }
+
+    max-width: 100%;
   }
 
   .ucsd {
@@ -123,6 +121,7 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    max-width: 100%;
   }
 
   .job {
